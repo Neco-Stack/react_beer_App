@@ -19,7 +19,7 @@ const AllBeers: React.FC = () => {
   
     return (
       <div className="all-beers">
-        <h2>Alle Biere</h2>
+        <h2>All Beers</h2>
         <div className="beer-list">
           {beers.map((beer) => (
             <Link to={`/beers/${beer._id}`} key={beer._id}>

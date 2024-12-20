@@ -1,6 +1,6 @@
 .navbar {
-    background-color: #333;
-    padding: 10px;
+    background-color: #343a40;
+    padding: 15px;
   }
   
   .navbar-home {
@@ -9,6 +9,6 @@
   }
   
   .home-icon {
-    width: 24px;
-    height: 24px;
+    width: 30px; 
   }
+  

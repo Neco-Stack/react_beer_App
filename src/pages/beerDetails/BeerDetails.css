@@ -1,0 +1,27 @@
+.beer-details {
+    padding: 20px;
+    text-align: center; 
+}
+
+.beer-details img {
+    max-width: 300px; 
+    border-radius: 5px; 
+}
+
+.beer-details h2 {
+    margin-top: 20px; 
+}
+.back-button {
+    margin-bottom: 20px; 
+    padding: 10px 15px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+}

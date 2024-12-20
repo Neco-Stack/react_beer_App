@@ -1,15 +1,20 @@
 .home {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
+    background-color: #f8f9fa;
   }
   
   .home-link {
-    display: block;
-    margin: 10px auto;
+    display: inline-block;
+    margin: 15px;
     padding: 10px 20px;
-    background-color: #f0f0f0;
+    background-color: #007bff;
+    color: white;
     text-decoration: none;
-    color: #333;
     border-radius: 5px;
-    width: 200px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #0056b3;
   }

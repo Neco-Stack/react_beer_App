@@ -1,5 +1,5 @@
 import "./BeerDetails.css";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { fetchBeerById } from "../../services/api";
 import { Beer } from "../../types/beer";
 import { useEffect, useState } from "react";
@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 const BeerDetails: React.FC = () => {
     const [beer, setBeer] = useState<Beer | null>(null);
     const { beerId } = useParams<{ beerId: string }>(); 
+    const navigate = useNavigate();
 
     useEffect(() => {
         const getBeer = async () => {
@@ -22,6 +23,7 @@ const BeerDetails: React.FC = () => {
 
     return (
         <div className="beer-details">
+            <button onClick={() => navigate(-1)} className="back-button">Back</button>
             <img src={beer.image_url} alt={beer.name} />
             <h2>{beer.name}</h2>
             <p>{beer.tagline}</p>

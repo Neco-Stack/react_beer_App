@@ -1,0 +1,9 @@
+.random-beer {
+    padding: 20px;
+    text-align: center; 
+}
+
+.random-beer img {
+    max-width: 300px; 
+    border-radius: 5px; 
+}
