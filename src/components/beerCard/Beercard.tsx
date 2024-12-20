@@ -1,6 +1,6 @@
 import React from 'react';
 import { Beer } from '../../types/beer';
-import './BeerCard.css';
+import "./Beercard.css"
 
 interface BeerCardProps {
   beer: Beer;
