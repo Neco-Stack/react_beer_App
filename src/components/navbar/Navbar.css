@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar-home {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .home-icon {
+    width: 24px;
+    height: 24px;
+  }
