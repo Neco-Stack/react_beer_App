@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-home">
-        <img src="/home-icon.png" alt="Home" className="home-icon" />
+      Home
       </Link>
     </nav>
   );
